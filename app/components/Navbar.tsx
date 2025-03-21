@@ -8,20 +8,20 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-gray-800">
-          <Link href="/">SimpleCloud</Link>
+          <Link href="/">SimpleSaaS</Link>
         </div>
         <div className="flex space-x-6">
-          <Link href="/dashboard" className="text-gray-600 hover:text-gray-800">
-            Dashboard
+          <Link href="/login">
+            <span className="text-gray-600 hover:text-gray-800">Login</span>
           </Link>
-          <Link href="/features" className="text-gray-600 hover:text-gray-800">
-            Features
+          <Link href="/dashboard">
+            <span className="text-gray-600 hover:text-gray-800">Dashboard</span>
           </Link>
-          <Link href="/pricing" className="text-gray-600 hover:text-gray-800">
-            Pricing
+          <Link href="/features">
+            <span className="text-gray-600 hover:text-gray-800">Features</span>
           </Link>
-          <Link href="/login" className="text-gray-600 hover:text-gray-800">
-            Login
+          <Link href="/pricing">
+            <span className="text-gray-600 hover:text-gray-800">Pricing</span>
           </Link>
         </div>
       </div>

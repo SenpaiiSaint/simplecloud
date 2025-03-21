@@ -14,7 +14,7 @@ export default function Home() {
             <div className="mt-8">
               <a
                 href="/login"
-                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition duration-300"
+                className="px-8 py-4 bg-blue-500 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition duration-300"
               >
                 Get Started
               </a>
