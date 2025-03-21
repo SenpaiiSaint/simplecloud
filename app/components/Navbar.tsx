@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-gray-800">
-          <Link href="/">SimpleSaaS</Link>
+          <Link href="/">SimpleCloud</Link>
         </div>
         <div className="flex space-x-6">
           <Link href="/login">
