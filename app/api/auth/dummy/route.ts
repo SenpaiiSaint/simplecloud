@@ -1,5 +1,5 @@
 // app/api/auth/dummy/route.ts
-export async function GET(_request: Request) {
+export async function GET() {
     const data = {
       metrics: {
         users: 123,
