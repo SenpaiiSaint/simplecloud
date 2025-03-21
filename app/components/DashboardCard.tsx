@@ -13,6 +13,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import { ChartData, ChartOptions } from "chart.js/auto";
 
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
@@ -21,8 +22,8 @@ interface DashboardCardProps {
   title: string;
   value: number;
   valueColor?: string;
-  chartData?: any;
-  chartOptions?: any;
+  chartData?: ChartData<'line'>;
+  chartOptions?: ChartOptions<'line'>;
 }
 
 export default function DashboardCard({
